@@ -43,10 +43,24 @@
 
 
 
+
 import random
+random_list = []
 
+for i in range(0,50):
+	random_list.append(random.randint(-50,50))
 
+print(random_list)
 
+min_index = 0
+n = len(random_list)
+
+for i in range(1,len(random_list)):
+	if random_list[min_index] > random_list[i]:
+		min_index = i
+
+print(min_index)
+print(random_list[min_index])
 
 
 
