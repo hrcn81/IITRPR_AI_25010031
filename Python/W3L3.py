@@ -1,4 +1,4 @@
-#  Linear Search
+# # Linear Search
 # my_list = [1,2,3,45,5,1,216,51,32]
 # num = int(input('Enter Number:'))
 # found = False
@@ -15,7 +15,7 @@
 
 
 
-
+# # Find Minimum number
 # my_list = [-54,5,8,2,1,3,-12,0,125]
 # min_element = my_list[0]
 # # print(min_element)
@@ -29,7 +29,7 @@
 
 
 
-
+# # Find Minimum number
 # my_list = [54,5,8,2,1,3,-102,0,125]
 # min_index = 0
 # n = len(my_list)
