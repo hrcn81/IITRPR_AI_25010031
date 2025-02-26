@@ -30,7 +30,15 @@
 
 
 
-my_list = [-54,5,8,2,1,3,-12,0,125]
+my_list = [54,5,8,2,1,3,-102,0,125]
+min_index = 0
+n = len(my_list)
+
+for i in range(1,n):
+	if my_list[min_index] > my_list[i]:
+		min_index = i
+
+print(my_list[min_index])
 
 
 
